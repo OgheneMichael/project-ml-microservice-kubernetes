@@ -22,18 +22,18 @@ The following tasks were performed:
 
 ### Short description of folders and files in the repo
 
-* [.circleci](/project-ml-microservice-kubernetes/.circleci): For the CircleCI build server
-* [model_data](/project-ml-microservice-kubernetes/model_data) : this folder contains the pretrained `sklearn` model and housing csv files
-* [output_txt_files](/project-ml-microservice-kubernetes/output_txt_files): folder contains sample output logs from running `./run_docker.sh` and `./run_kubernetes.sh`
-* [app.py](/project-ml-microservice-kubernetes/app.py) : contains the flask app
-* [Dockerfile](/project-ml-microservice-kubernetes/app.py): contains instructions to containerize the application
-* [Makefile](/project-ml-microservice-kubernetes/Makefile) : contains instructions for environment setup and lint tests
-* [requirements.txt](/project-ml-microservice-kubernetes/requirements.txt): list of required dependencies
-* [run_docker.sh](/project-ml-microservice-kubernetes/run_docker.sh): bash script to build Docker image and run the application in a Docker container
-* [upload_docker.sh](/project-ml-microservice-kubernetes/upload_docker.sh): bash script to upload the built Docker image to Dockerhub
-* [run_kubernetes.sh](/project-ml-microservice-kubernetes/run_kubernetes.sh): bash script to run the application in a Kubernetes cluster
-* [make_prediction.sh](/project-ml-microservice-kubernetes/make_prediction.sh): bash script to make predictions against the Docker container and k8s cluster
-* [README.md](/project-ml-microservice-kubernetes/README.md): this README file
+* [.circleci](/.circleci): For the CircleCI build server
+* [model_data](/model_data) : this folder contains the pretrained `sklearn` model and housing csv files
+* [output_txt_files](/output_txt_files): folder contains sample output logs from running `./run_docker.sh` and `./run_kubernetes.sh`
+* [app.py](/app.py) : contains the flask app
+* [Dockerfile](/Dockerfile): contains instructions to containerize the application
+* [Makefile](/Makefile) : contains instructions for environment setup and lint tests
+* [requirements.txt](/requirements.txt): list of required dependencies
+* [run_docker.sh](/run_docker.sh): bash script to build Docker image and run the application in a Docker container
+* [upload_docker.sh](/upload_docker.sh): bash script to upload the built Docker image to Dockerhub
+* [run_kubernetes.sh](/run_kubernetes.sh): bash script to run the application in a Kubernetes cluster
+* [make_prediction.sh](/make_prediction.sh): bash script to make predictions against the Docker container and k8s cluster
+* [README.md](/README.md): this README file
 
 ### Instructions
 
